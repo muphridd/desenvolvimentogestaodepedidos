@@ -10,8 +10,8 @@ Este é um sistema de gestão de clientes e pedidos desenvolvido com o framework
 
 ## Tecnologias Utilizadas
 
-- Django 5.x
-- Python 3.x
+- Django 
+- Python 
 - SQLite (banco de dados)
 
 # Avalie com carinho! ╥⌓╥
