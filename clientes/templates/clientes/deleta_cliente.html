@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excluir Cliente</title>
+</head>
+<body>
+    <h1>Tem certeza que deseja excluir o cliente {{ cliente.nome }}?</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <button type="submit">Sim, excluir</button>
+    </form>
+    <a href="{% url 'lista_clientes' %}">Cancelar</a>
+    <br>
+    <a href="{% url 'lista_clientes' %}"><button>Voltar para a lista de clientes</button></a>
+</body>
+</html>
